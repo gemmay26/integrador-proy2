@@ -5,7 +5,6 @@
  */
 package com.view;
 
-import com.view.paneles.pnlCinco;
 import com.view.paneles.pnlCuatro;
 import com.view.paneles.pnlDos;
 import com.view.paneles.pnlTres;
@@ -61,17 +60,17 @@ public class inicio extends javax.swing.JFrame {
         pnlPrincipal.setLayout(new javax.swing.BoxLayout(pnlPrincipal, javax.swing.BoxLayout.LINE_AXIS));
         bg.add(pnlPrincipal, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 70, 1410, 680));
 
-        jPanel1.setBackground(new java.awt.Color(204, 0, 51));
+        jPanel1.setBackground(new java.awt.Color(51, 102, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("SISTEMA TAPCE");
+        jLabel1.setText("SISTEMA DE CITAS MEDICAS DEL CENTRO DE SALUD \"JAIME ZUBIETA\"");
 
-        btnMenu.setBackground(new java.awt.Color(204, 0, 51));
+        btnMenu.setBackground(new java.awt.Color(0, 102, 255));
         btnMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/img/menu.png"))); // NOI18N
-        btnMenu.setColorHover(new java.awt.Color(204, 0, 51));
-        btnMenu.setColorNormal(new java.awt.Color(204, 0, 51));
-        btnMenu.setColorPressed(new java.awt.Color(204, 0, 51));
+        btnMenu.setColorHover(new java.awt.Color(0, 102, 255));
+        btnMenu.setColorNormal(new java.awt.Color(0, 102, 255));
+        btnMenu.setColorPressed(new java.awt.Color(0, 102, 255));
         btnMenu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuActionPerformed(evt);
@@ -85,8 +84,8 @@ public class inicio extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(btnMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 237, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(1356, Short.MAX_VALUE))
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1099, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(494, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -152,7 +151,7 @@ public class inicio extends javax.swing.JFrame {
         pnlMenu.add(uno, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 260, 60));
 
         dos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/img/collection.png"))); // NOI18N
-        dos.setText("CONCEPTOS");
+        dos.setText("VER HORARIO");
         dos.setAlignmentY(0.0F);
         dos.setAutoscrolls(true);
         dos.setColorHover(new java.awt.Color(204, 204, 204));
@@ -177,7 +176,7 @@ public class inicio extends javax.swing.JFrame {
         pnlMenu.add(dos, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 260, 60));
 
         tres.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/img/chat.png"))); // NOI18N
-        tres.setText("TABLA PERIODICA");
+        tres.setText("GENERAR CITA");
         tres.setAlignmentY(0.0F);
         tres.setAutoscrolls(true);
         tres.setColorHover(new java.awt.Color(204, 204, 204));
@@ -202,7 +201,7 @@ public class inicio extends javax.swing.JFrame {
         pnlMenu.add(tres, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 210, 260, 60));
 
         cinco.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/img/feeedback.png"))); // NOI18N
-        cinco.setText("CONF. ELECTRONICA");
+        cinco.setText("CERRAR SESIÓN");
         cinco.setAlignmentY(0.0F);
         cinco.setAutoscrolls(true);
         cinco.setColorHover(new java.awt.Color(204, 204, 204));
@@ -227,7 +226,7 @@ public class inicio extends javax.swing.JFrame {
         pnlMenu.add(cinco, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 330, 260, 60));
 
         cuatro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/img/web.png"))); // NOI18N
-        cuatro.setText("BUSQUEDA DE ELEMENTO");
+        cuatro.setText("BUSQUEDA DE CITA");
         cuatro.setAlignmentY(0.0F);
         cuatro.setAutoscrolls(true);
         cuatro.setColorHover(new java.awt.Color(204, 204, 204));
@@ -435,32 +434,7 @@ public class inicio extends javax.swing.JFrame {
     }//GEN-LAST:event_cuatroActionPerformed
 
     private void cincoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cincoActionPerformed
-        new CambiaPanel(pnlPrincipal, new pnlCinco());
-        if(this.cinco.isSelected()){
-            this.uno.setColorNormal(new Color(214,217,223));
-            this.uno.setColorHover(new Color(204,204,204));
-            this.uno.setColorPressed(new Color(214,217,223));
-            
-            this.dos.setColorNormal(new Color(214,217,223));
-            this.dos.setColorHover(new Color(204,204,204));
-            this.dos.setColorPressed(new Color(214,217,223));
-            
-            this.tres.setColorNormal(new Color(214,217,223));
-            this.tres.setColorHover(new Color(204,204,204));
-            this.tres.setColorPressed(new Color(214,217,223));
-            
-            this.cuatro.setColorNormal(new Color(214,217,223));
-            this.cuatro.setColorHover(new Color(204,204,204));
-            this.cuatro.setColorPressed(new Color(214,217,223));
-            
-            this.cinco.setColorNormal(new Color(204,204,204));
-            this.cinco.setColorHover(new Color(204,204,204));
-            this.cinco.setColorPressed(new Color(204,204,204));
-        }else{
-            this.cinco.setColorNormal(new Color(214,217,223));
-            this.cinco.setColorHover(new Color(204,204,204));
-            this.cinco.setColorPressed(new Color(214,217,223));
-        }
+        
     }//GEN-LAST:event_cincoActionPerformed
 
     /**
