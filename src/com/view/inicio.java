@@ -67,7 +67,7 @@ public class inicio extends javax.swing.JFrame {
         jLabel1.setText("SISTEMA DE CITAS MEDICAS DEL CENTRO DE SALUD \"JAIME ZUBIETA\"");
 
         btnMenu.setBackground(new java.awt.Color(0, 102, 255));
-        btnMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/img/menu.png"))); // NOI18N
+        btnMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/imagenes/menu.png"))); // NOI18N
         btnMenu.setColorHover(new java.awt.Color(0, 102, 255));
         btnMenu.setColorNormal(new java.awt.Color(0, 102, 255));
         btnMenu.setColorPressed(new java.awt.Color(0, 102, 255));
@@ -125,7 +125,7 @@ public class inicio extends javax.swing.JFrame {
 
         pnlMenu.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, -1));
 
-        uno.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/img/home.png"))); // NOI18N
+        uno.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/imagenes/home.png"))); // NOI18N
         uno.setText("INICIO");
         uno.setAlignmentY(0.0F);
         uno.setAutoscrolls(true);
@@ -150,7 +150,7 @@ public class inicio extends javax.swing.JFrame {
         });
         pnlMenu.add(uno, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 260, 60));
 
-        dos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/img/collection.png"))); // NOI18N
+        dos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/imagenes/home.png"))); // NOI18N
         dos.setText("VER HORARIO");
         dos.setAlignmentY(0.0F);
         dos.setAutoscrolls(true);
@@ -175,7 +175,7 @@ public class inicio extends javax.swing.JFrame {
         });
         pnlMenu.add(dos, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 260, 60));
 
-        tres.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/img/chat.png"))); // NOI18N
+        tres.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/imagenes/home.png"))); // NOI18N
         tres.setText("GENERAR CITA");
         tres.setAlignmentY(0.0F);
         tres.setAutoscrolls(true);
@@ -200,7 +200,7 @@ public class inicio extends javax.swing.JFrame {
         });
         pnlMenu.add(tres, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 210, 260, 60));
 
-        cinco.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/img/feeedback.png"))); // NOI18N
+        cinco.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/imagenes/home.png"))); // NOI18N
         cinco.setText("CERRAR SESIÓN");
         cinco.setAlignmentY(0.0F);
         cinco.setAutoscrolls(true);
@@ -225,7 +225,7 @@ public class inicio extends javax.swing.JFrame {
         });
         pnlMenu.add(cinco, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 330, 260, 60));
 
-        cuatro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/img/web.png"))); // NOI18N
+        cuatro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/imagenes/home.png"))); // NOI18N
         cuatro.setText("BUSQUEDA DE CITA");
         cuatro.setAlignmentY(0.0F);
         cuatro.setAutoscrolls(true);

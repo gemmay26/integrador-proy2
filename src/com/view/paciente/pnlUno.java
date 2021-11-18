@@ -39,8 +39,6 @@ public class pnlUno extends javax.swing.JPanel {
         titulo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titulo.setText("<html><div style=\"text-align:center\">Bienvenido al Sistema de Cita Medicas de Hospital Jaime Zubieta </div></html>");
 
-        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/img3/quimica.png"))); // NOI18N
-
         descripcion.setText("<html>Aqui podras ver el horario de los doctores, generar cita en las diferentes especialidades medicas: <br><br> - Psicología <br> - Psiquiatría <br> - Médico de familia <br> - Trabajo social <br> - Terapia Social <br><br> Tambien podrás buscar citas que ya tengas registradas.Holamundo</html>");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

@@ -53,7 +53,7 @@ public class pnlCuatro extends javax.swing.JPanel {
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(128, 128, 131));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/img1/home.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/view/imagenes/home.png"))); // NOI18N
         jLabel2.setText("BUSQUEDA DE CITA");
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
