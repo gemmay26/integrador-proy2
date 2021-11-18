@@ -5,10 +5,10 @@
  */
 package com.view;
 
-import com.view.paneles.pnlCuatro;
-import com.view.paneles.pnlDos;
-import com.view.paneles.pnlTres;
-import com.view.paneles.pnlUno;
+import com.view.doctor.pnlCuatro;
+import com.view.doctor.pnlDos;
+import com.view.doctor.pnlTres;
+import com.view.doctor.pnlUno;
 import java.awt.Color;
 import paneles.CambiaPanel;
 
